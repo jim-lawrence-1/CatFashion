@@ -1,0 +1,79 @@
+html {
+    font-size: 22px;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(224, 203, 188);
+    text-align: center;
+    background-color: black;
+}
+
+header {
+    height: 800px;
+    background-image: url("../Images/fashionshow.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 3px solid seashell;
+}
+
+nav {
+    height: 69px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    top: 0;
+}
+
+h1 {
+    font-size: 120px;
+    text-shadow: 3px 3px 10px black;
+}
+  
+a {
+    color: rgb(224, 203, 188);
+}
+
+li {
+    display: inline-flex;
+    list-style-type: none;
+    margin: 20px;
+}
+
+h2 {
+    margin-top: 60px;
+}
+
+.style-images-container {
+    display: inline-flex;
+    margin: 20px;
+    flex-wrap: wrap;
+    border-bottom: 3px solid seashell;
+}
+
+.style-image-box {
+    height: 500px;
+    width: 500px;
+    margin: 50px;
+    align-self: baseline;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.staff-images-container {
+    display: inline-flex;
+    margin: 20px;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+
+.staff-image-box {
+    height: 500px;
+    width: 500px;
+    margin: 50px;
+    align-self: baseline;
+}
